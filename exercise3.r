@@ -69,10 +69,10 @@ dim(input.df)
 getwd()
 
 ## Reading data from Comma separated file (csv)
-input_csv.df <- read.csv(file="C:\\Ram\\R for Data Science\\data\\binary.csv")
+input_csv.df <- read.csv(file="E:\\Vivek\\R for Data Science\\data\\binary.csv")
 
 # reset directory and read file
-setwd("C:\\Ram\\R for Data Science\\data")
+setwd("D:\\Vivek\\R for Data Science\\data")
 input_csv.df <- read.csv("binary.csv",header = T)
 
 ## See the structure of the data
