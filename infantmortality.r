@@ -1,0 +1,16 @@
+#Exercise 2
+# 1. Download a CSV file from https://data.oecd.org/healthstat/infant-mortality-rates.htm and read the CSV file and remove the last variable
+
+
+library("xml2")
+library("rvest")
+getwd()
+setwd("D:\\vivek\\AMMA 2017\\Data")
+input_csv.df<-read.csv("DP_LIVE_02072017055613917.csv",header=T)
+class(input_csv.df)
+
+input_csv.df<-input_csv.df[,-8]
+View(input_csv.df)
+
+
+
